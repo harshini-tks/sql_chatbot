@@ -1,11 +1,3 @@
-#conda create --name 'chatwithsql' python=3.10
-# environment location: /home/praghadeesh/anaconda3/envs/chatwithsql
-# To activate this environment, use - conda activate chatwithsql
-# To deactivate an active environment, use - conda deactivate
-#pip install streamlit langchain langchain-openai langchain-groq mysql-connector-python python-dotenv
-#streamlit run app.py
-#mysql root password is 'mysql'
-
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_community.utilities import SQLDatabase
